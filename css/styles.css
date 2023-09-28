@@ -25,6 +25,10 @@ a {
     text-decoration: none;
 }
 
+a:visited { 
+    color: #000;
+}
+
 .header-container {
     padding: 30px 0;
 }
@@ -41,9 +45,19 @@ a {
 
 .logo {
     margin-right: 60px;
+    border-radius: 3px;
+    padding: 3px;
 }
 
-.logo-first-part {}
+.logo:focus,
+.logo:hover { 
+    background-color: yellowgreen;
+}
+
+.logo:active { 
+    color: #000;
+}
+
 
 .site-pages-list {
     display: flex;
